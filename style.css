@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 1000;
+    color: tomato;
+}
+p{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+.topBackground-img{
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(images/header-bg1.png);
+    background-repeat: no-repeat;
+}
+
+.midBackground-img{
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+section{
+    height: 600px;
+    padding-bottom: 300px;
+    margin: 0;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    
+}
+
+.half-width img{
+    width: 100%;
+}
+.toplink{
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.latestWork{
+    width: 25%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+
+}
+
+.portfolio-section{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    
+}
+
+h5{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    
+}
+
+h6{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+.box33{
+    width: 33%;
+    /*height: 180px;*/
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+.images{
+width: 100%;
+height: 200px;
+}
+.Feedback{
+    text-align: center;
+}
+
+.contactEmail{
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.contactEmail h6{
+    
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.clientSay{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
