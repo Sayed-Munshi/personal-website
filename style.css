@@ -89,6 +89,14 @@ h3{
     
 }
 
+h4{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    padding-top: 60px;
+    
+}
 h5{
     text-align: center;
     font-family: 'Assistant', sans-serif;
@@ -140,4 +148,17 @@ height: 200px;
     margin: 0 auto;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
+}
+
+
+.footer1{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.box33 h6{
+    font-weight: 600;
 }
