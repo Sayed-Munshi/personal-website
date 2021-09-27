@@ -2,116 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+    <title>Personal Website</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600;700;800&family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section class="topBackground-img">
-        <div class="half-width">
-            <h1>Hello I'm</h1>
-            <h2>Sayed Munshi</h2>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
 
-            <a class="toplink" target="_blank" href="#">HIRE ME</a>
+    <div class="nav-section">
+        <a href="#contact">Contact</a>
+        <a href="#news">News</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a class="active" href="#home">Home</a>
+    </div>
+
+
+    <section id="top-background">
+        <div class="half-width">
+            <h2>Hello i'm</span></h2>
+            <h1>Sayed Munshi</h1>
+            <p>A full stack allaround designer that placerat
+            in massa consectetur</p>
+            
+            <a class="btn-style" target="_blank" href="#">HIRE ME</a>
         </div>
 
         <div class="half-width">
-            <img src="images/peter.png" alt="">
+            <img src="image/peter.png" alt="">
         </div>
     </section>
 
 
-    <section class="midBackground-img">
-
+    <section id="second-background">
         <div class="half-width">
-            <img src="images/peter_dream.png" alt="">
+            <img src="image/peter_dream.png" alt="">
         </div>
 
         <div class="half-width">
-            <h1>Biography</h1>
-
+            <h2>Biography</h2>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
 
-            <a class="toplink" target="_blank" href="#">Download CV</a>
+            <a class="btn-style" target="_blank" href="#"> Download CV</a>
         </div>
-
     </section>
 
-
-    <div class="portfolio-section">
-        <h3>My Latest Work</h3>
-        <!--
-        <div class="latestWork">
-           <img src="images/latest-work/work-1.png" alt="">
+    <section id="latestWork">
+        <div class="container">
+            <h1>My Latest Work</h1>
+            <div class="latest">
+                <img src="latest-work/work-1.png" alt="">
+            </div>
+            <div class="latest">
+                <img src="latest-work/work-2.jpg" alt="">
+            </div>
+            <div class="latest">
+                <img src="latest-work/work-3.jpg" alt="">
+            </div>
         </div>
-
-        <div class="latestWork">
-            <img src="images/latest-work/work-2.jpg" alt="">
-        </div>
-
-        <div class="latestWork">
-            <img src="images/latest-work/work-3.jpg" alt="">
-        </div>-->
-        <div class="box33">
-            <img class="images" src="images/latest-work/work-1.png" alt="">
-           
-        </div>
-        
-        <div class="box33 a">
-            <img class="images" src="images/latest-work/work-2.jpg" alt="">
-        </div>
-        
-        <div class="box33">
-            <img class="images" src="images/latest-work/work-3.jpg" alt="">
-        </div>
-    </div>
-
-    <div class="portfolio-section">
-        <h3>OUR TEAM</h3>
-        <div class="box33">
-            <img class="images" src="images/mansour.jpg" alt="">
-            <h6>Mansour</h6>
-        </div>
-        
-        <div class="box33">
-            <img class="images" src="images/jerry.jpg" alt="">
-            <h6>Jerry</h6>
-        </div>
-        
-        <div class="box33">
-            <img class="images" src="images/Liz Ronczka - photo.jpg" alt="">
-            <h6>LIZ Ronczka</h6>
-        </div>
-    </div>
-
-    <section class="clientSay">
-
-        <h4>What Client are say</h4>
-        <h5>Michail Gale</h5>
-        <h6>Founder@ Director</h6>
-        <div class="Feedback">
-            <p>Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type.</p>
-        </div>
-
-        <div class="contactEmail">
-            <h6>Leave me a message in the</h6>
-            <h1>mdsayed4000@gmail.com</h1>
-        </div>
-
     </section>
 
-    <div class="footer1">
-        <footer class="foot">
-           <p>Programming hero @2020 All rights</p> 
-    
+    <section id="ourTeam">
+        <div class="container">
+            <h1>OUR TEAM</h1>
+            <div class="team">
+                <img src="image/SAYED PICTURE.png" alt="">
+                <h4>Sayed Munshi</h4>
+                <p>Web Developer</p>
+            </div>
+            <div class="team">
+                <img src="image/SAYED PICTURE.png" alt="">
+                <h4>Sayed Munshi</h4>
+                <p>Web Developer</p>
+            </div>
+            <div class="team">
+                <img src="image/SAYED PICTURE.png" alt="">
+                <h4>Sayed Munshi</h4>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="client-area">
+            <h2>What Client are say</h2>
+            <h3>Michail Gale</h3>
+            <h6>Founder@ CEO</h6>
+            <p>
+                Lorem Ipsum has been the industry's <br>
+                standard dummy text ever since the 1500s, <br>
+                when an unknown printer took a galley of type.
+            </p>
+        </div>
+
+        <div class="messageArea">
+            <P>Leave me a message in the</P>
+
+            <p> <span>WhatsApp</span> +880164882081</p>
+            <H3>mdsayed4000@gmail.com</H3>
+        </div>
+
+        <footer>
+            <p>
+                Sayed Munshi @2020 All rights
+            </p>
         </footer>
-    </div>
+    </section>
 
-    
+    <!-- <footer>
+        <p>
+            Sayed Munshi @2020 All rights
+        </p>
+    </footer> -->
+
 </body>
 </html>
