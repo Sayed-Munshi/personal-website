@@ -1,164 +1,146 @@
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
 body{
-    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    /* margin: 0; */
+}
+.nav-section{
+    background-color:#222;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.nav-section a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 30px;
+}
+.nav-section a:hover{
+    background-color: rgb(137, 236, 113);
+    color: black;
+    border-radius: 20px;
+}
+.nav-section a.active{
+    background-color:#04AA;
+    color: white;
+    border-radius: 20px;
 }
 
 h1{
-    font-family: 'Assistant', sans-serif;
-    font-weight: 400;
-}
-
-h2{
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 1000;
     color: tomato;
 }
-p{
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 300;
-}
-.topBackground-img{
-    width: 1000px;
-    margin: 0 auto;
-    background-image: url(images/header-bg1.png);
-    background-repeat: no-repeat;
-}
-
-.midBackground-img{
-    width: 1000px;
-    margin: 0 auto;
-    background-image: url(images/biography-bg.png);
-    background-repeat: no-repeat;
-}
-
-
 section{
-    height: 600px;
-    padding-bottom: 300px;
-    margin: 0;
+    height: 700px;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 .half-width{
     width: 40%;
     float: left;
-    margin: 5%;
+    margin: 3%;
     padding: 2%;
-    
 }
 
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
-.toplink{
+.btn-style{
     text-decoration: none;
-    background-color: tomato;
-    border-radius: 10px;
-    padding: 10px 20px;
+    background-color:tomato;
     color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
     font-weight: bold;
-    
 }
 
-.latestWork{
+#top-background{
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#second-background{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.latest{
+    /* height: 700px; */
     width: 25%;
     float: left;
-    margin: 5%;
-    padding: 2%;
-
+    padding: 50px;
 }
 
-.portfolio-section{
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
-    background-image: url(images/biography-bg.png);
+.latest img{
+    width: 100%;
+}
+
+.container{
+    padding-top: 100px;
+}
+#latestWork{
+    /* background-color: green; */
+    background-image: url(image/latest-work-bg.png);
     background-repeat: no-repeat;
+    background-position: right center;
 }
 
-h3{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 600;
-    padding-bottom: 40px;
-    padding-top: 80px;
-    
+#ourTeam{
+    /* background-color: green; */
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
-
-h4{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 600;
-    padding-top: 60px;
-    
+.team img{
+    width: 70%;
 }
-h5{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 300;
-    
-}
-
-h6{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 100;
-}
-.box33{
-    width: 33%;
-    /*height: 180px;*/
+.team{
+    /* height: 700px; */
+    width: 25%;
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;  
+    margin: 50px;
 }
-.images{
-width: 100%;
-height: 200px;
+.team{
+    background-color: white;
+    box-shadow: 5px 10px 30px gray;
 }
-.Feedback{
+
+.container{
+    /* padding-top: 10px; */
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 40px; */
+}
+.client-area{
+    margin-top: 150px;
     text-align: center;
 }
 
-.contactEmail{
+.messageArea{
+    height:200px;
     width: 400px;
-    height: 150px;
-    background-color: red;
+    background-color: goldenrod;
     margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.messageArea h3{
+    COLOR: white;
     text-align: center;
-    color: white;
 }
-.contactEmail h6{
-    
-    color: white;
-    margin: 20px;
-    margin-top: 50px;
-    padding-top: 30px;
-}
-
-.clientSay{
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
-    background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-}
-
-
-.footer1{
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
-    padding-top: 40px;
+.messageArea p{
+    padding-top: 15px;
+    COLOR: white;
     text-align: center;
 }
 
-.box33 h6{
-    font-weight: 600;
+footer{
+    text-align: center;
+    font-size:14px;
+    padding-top: 50px;
 }
